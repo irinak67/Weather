@@ -1,30 +1,54 @@
 .App {
   text-align: center;
+  background-image: url("https://aussiedlerbote.de/wp-content/uploads/2021/05/pogoda-v-germanii.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 800px;
 }
 
-.Card {
-  background-image: url("https://thumbs.dreamstime.com/b/weather-forecast-wide-banner-day-night-opposites-nature-day-night-light-darkness-sun-moon-weather-forecast-wide-112900893.jpg");
+.Card {  
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%; 
-  border: 2px solid;
+  grid-template-rows: 50px 50px 50px 100px; 
   height: 300px;
-  width: 600px;
-  margin: 10% 30%;
-  background-repeat: no-repeat;
+  width: 800px;
+  margin: 5% 25%;  
+  color: #01040e; 
 }
 
 .Card img {
   height: 150px;
-  width: 150px;
-  
+  width: 150px;  
 }
 
 .btn {
   width: 80px;
   height: 80px;
-  border-radius: 10%;
-  background-color: aqua;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: xx-large;
+  border-radius: 10%; 
+  background-image: url("https://1.bp.blogspot.com/-u06wdhsOMr0/Wa1dEiLGO3I/AAAAAAAAMhw/1IIOSQ5UA_c9LyRo8pOhosYVXsB1Rfg7ACLcBGAs/s1600/TahoeWeatherWatch_logo.jpg");
+  background-size:cover;
+}
+
+.header {  
+  background-size: cover;
+  width: 150px;
+  height: 50px;
+  color:azure;
+  font-size: large;
   font-weight: bolder;
+  align-items: baseline ;
+  margin-right: 10px;
+  margin-top: 15px;
+  border: 3px solid bisque;
+}
+
+.input {
+  margin-top: 20px;
+  height: 30px;
+  width: 400px;
+  text-align: center;
+  background-color: #95BBE3;
+  color: #132C9C;
+  font-weight: bold;
+  font-size: larger;
 }

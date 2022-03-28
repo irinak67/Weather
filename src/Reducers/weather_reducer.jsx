@@ -11,8 +11,7 @@ export const clearAction = () => {
 }
 
 // Reducer
-export const reducerWeather = (state, action) => {
-    //export const reducerWeather=(state={},action)=>{
+export const reducerWeather = (state, action) => {    
     const resetO = {lastSearthResult: {}, history: [], refresh: 0};
     if(state===0)
     {

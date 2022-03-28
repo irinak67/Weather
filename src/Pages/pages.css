@@ -1,0 +1,60 @@
+.historyTitle {
+    display: grid;
+    grid-template-columns: 5% 15% 35% 18% 12% 15%;
+    width: 1100px;
+    color:#132C9C;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: x-large;
+    background-color: #4580EE;
+    margin-left: 15%;
+    justify-items: center;
+}
+.historyBody {
+    display: grid;
+    grid-template-columns: 5% 15% 35% 18% 12% 15%;
+    width: 1100px;
+    color:rgb(20, 2, 36);
+    background-color: #9CC2DB;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: large; 
+    line-height: 5px;
+    margin-left: 15%;
+    border: 1px solid blue;
+    justify-items: center;   
+}
+button {
+    margin-top: 20px;
+    border-radius: 20%;
+    border: 3px solid;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(69, 128, 238);
+    color:rgb(20, 2, 36);
+    font-size: large;
+    font-weight: bold;
+}
+
+.link {   
+    display: inline-block;
+    background-color: darkturquoise;   
+    width: 100px;
+    height: 30px;
+    color:rgb(19, 44, 156);
+    font-size: large;
+    font-weight: bold;
+    align-items: baseline ;  
+    border: 3px solid bisque;
+    border-radius: 10%;
+    position:relative;
+    top: 20%;
+    margin-left: 10px;
+  }
+.header {
+    height: 80px; 
+    width: 100%;
+    background-color: #95BBE3;   
+    vertical-align: middle;    
+} 
+
